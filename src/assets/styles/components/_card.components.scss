@@ -1,0 +1,68 @@
+.card {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 3px;
+  //padding-left: 30px;
+  //padding-right: 30px;
+
+  @extend %flexbox-column;
+
+  text-align: center;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+
+  transition: .5s;
+}
+
+.card-head {
+  width: 100%;
+  height: 180px;
+  background: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.description-card {
+  padding: 20px 20px 20px 20px;
+  border-bottom: solid 1px rgba(6, 74, 76, .18);
+  text-align: center;
+}
+
+.detail-course p {
+  text-align: left;
+  padding: 2px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+  transform: translateY(-15px);
+}
+
+.foot-card {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  //flex-direction: column;
+  //align-items: center;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 3%;
+}
+
+.card-not-line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  
+    @extend %flexbox-column;
+  }

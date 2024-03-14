@@ -1,0 +1,101 @@
+.card {
+  position: relative;
+    width: 300px;
+    height: 370px;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 3px;
+  //padding-left: 30px;
+  //padding-right: 30px;
+
+  @extend %flexbox-column;
+
+  //background-color: $color-white;
+  //border: 1px solid $color-border-card;
+  //border-radius: 5px;
+
+  
+
+  text-align: center;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 15px;
+
+  transition: .5s;
+  //margin-bottom: 5%;
+  //align-self: center;
+  //justify-self: center;
+}
+
+.cardhead {
+  height: 180px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.img {
+  width: 220px;
+  height: 180px;
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  //border-radius: 50%;
+  bottom: -100%;
+  left: 50%;
+  transform: translate(-50%);
+  
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  //border-radius: 50%;
+  object-fit: cover;
+}
+
+.description {
+  height: 320px;
+  padding: 80px 20px 20px 20px;
+  border-bottom: solid 1px rgba(6, 74, 76, .18);
+  text-align: center;
+}
+
+.detailcourse p {
+  text-align: left;
+  padding: 2px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+  transform: translateY(-15px);
+}
+
+.piecard {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //border: solid 1px rgba(6, 74, 76, .18);
+}
+
+.card-not-line {
+  
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  
+    @extend %flexbox-column;
+  }

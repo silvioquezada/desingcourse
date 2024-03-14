@@ -1,0 +1,25 @@
+
+%flexbox-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%flexbox-row-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*
+%flexbox-row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+%flexbox-column-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+*/

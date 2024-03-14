@@ -1,0 +1,42 @@
+@media screen and (min-width: $high-width) {
+
+  .container {  
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 100%;
+  }
+
+  .container-footer {  
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .card-not-line {
+    width: 30%;
+  }
+
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1000) {
+
+  .card {
+    width: 30%;
+  }
+}
