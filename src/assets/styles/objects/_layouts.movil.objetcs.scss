@@ -1,23 +1,21 @@
 .container {
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 4%;
-
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 4%;
 }
 
 .container-footer {
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-top: 4%;
-
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 4%;
 }
 
 .card-not-line {
@@ -32,10 +30,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 50px 15vh 30vh;
     gap: 0;
+    width: 100%;
 
     color: $color-white;
-
-    width: 100%;
   }
 
   .image-title-banner {
@@ -46,6 +43,7 @@
   .text-grid-banner {    
     grid-column: 1;
     grid-row: 2;
+
     text-align: center;
   }
 
@@ -53,7 +51,6 @@
 
 @supports not (display: grid) {
   
-  .root-grid-banner {    
-    background-color: $color-white;
-  }
+  .root-grid-banner { background-color: $color-white; }
+  
 }

@@ -1,4 +1,5 @@
 .card {
+  @extend %flexbox-column;
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 20px;
@@ -6,9 +7,8 @@
   padding-top: 30px;
   padding-bottom: 3px;
   
-  @extend %flexbox-column;
-
   text-align: center;
+
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
   border-radius: 15px;
 
@@ -18,26 +18,31 @@
 .card-head {
   width: 100%;
   height: 180px;
-  background: #fff;
   padding: 5px;
+
   text-align: center;
+
+  background: #fff;
 }
 
 .image-card {
   height: 100%;
-  width: 100%;  
+  width: 100%;
+
   object-fit: cover;
 }
 
 .description-card {
   padding: 20px 20px 20px 20px;
+
   text-align: center;
 }
 
 .detail-course p {
-  text-align: left;
   padding: 2px;
   margin: 0;
+
+  text-align: left;
   font-size: 14px;
 }
 
@@ -47,15 +52,16 @@
 }
 
 .foot-card {
-  width: 100%;
-  height: 30%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  width: 100%;
+  height: 30%;
   padding-bottom: 3%;
 }
 
-.card-not-line {
+.card-not-line { 
+    @extend %flexbox-column;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -64,6 +70,4 @@
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-  
-    @extend %flexbox-column;
   }

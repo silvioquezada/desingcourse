@@ -1,34 +1,31 @@
 @media screen and (min-width: $medium-width) {
-  .container {  
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 3%;
-  
+  .container {   
     display: flex;
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
     width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
   }
 
-  .container-footer {  
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 3%;
-  
+  .container-footer {    
     display: flex;
     flex-direction: row;
     justify-content:center;
     flex-wrap: wrap;
     width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
   }
   
-  .card {
-    width: 70%;
-  }
+  .card { width: 70%; }
 
   .card-not-line {
     width: 270px;
+    
     text-align: left;
   }
 }
