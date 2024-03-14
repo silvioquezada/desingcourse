@@ -1,29 +1,14 @@
-.content-flex-row {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-}
 
-.padding-left-right-3p {
   padding-left: 3%;
   padding-right: 3%;
-  width: 100%;
+  border-bottom: solid 1px rgba(6, 74, 76, .18);
 }
-
-.padding-left-right-6p {
-  padding-left: 6%;
-  padding-right: 6%;
-  width: 100%;
-}
-
-/*
-.section-row {
-  padding: 1%;
-  width: 100%;
-}
-*/
 
 .block-inline {
   padding-left: 12px;
@@ -36,26 +21,9 @@
   display: block;
 }
 
-.bag-color-gris {
-  background-color: $color-grey;
-}
-
 .footer {
   background-color: $color-grey;
   padding: 1%;
   width: 100%;
   color: $color-white;
 }
-
-
-
-/*
-.content-align-row-center {
-  @extend %flexbox-row-wrap;
-  justify-content: center;
-  align-items: left;
-  width: 100%;
-
-  text-align: center;
-}
-*/
