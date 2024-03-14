@@ -2,6 +2,20 @@
 
 .text-center { text-align: center; }
 
+.title-weight { font-weight: 700; }
+
 .text-small { font-size: $font-size-small; }
 
-.title-weight { font-weight: 700; }
+.text-big { font-size: $font-size-big; }
+
+.text-medium { font-size: $font-size-medium; }
+
+.text-pm0 {
+    padding: 0;
+    margin: 0;
+}
+
+.text-pm1 {
+    padding: 7px;
+    margin: 0;
+}
