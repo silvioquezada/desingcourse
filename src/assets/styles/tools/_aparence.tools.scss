@@ -12,3 +12,9 @@
   flex: $flex;
 }
 */
+@mixin aparence-button($color-font, $color-background) {
+  color: $color-font;
+
+  background-color: $color-background;
+  border: 2px solid $color-background;
+}
