@@ -1,10 +1,9 @@
-
 a {
   color: $color-white;
   text-decoration: none;
   
   &:hover {
     font-weight: bold;
-    color: rgb(245, 157, 35);
+    color: $color-primary;
   }
 }

@@ -12,6 +12,8 @@
   cursor: pointer;
 }
 
+.button-color-primary { @include aparence-button($color-font: $color-white, $color-background: $color-primary); }
+
 .button-color-blue { @include aparence-button($color-font: $color-white, $color-background: $color-blue); }
 
 .button-color-green { @include aparence-button($color-font: $color-white, $color-background: $color-green); }
