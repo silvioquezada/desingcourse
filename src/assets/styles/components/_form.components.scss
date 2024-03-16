@@ -71,6 +71,14 @@
   border: 2px solid $background-color-input;
 }
 
+.input-group a {
+  text-align: center;
+  //pointer-events: none;
+  &:hover {
+    color: $color-white;
+  }
+}
+
 .w80 { width: 80%; }
 
 .w100 { width: 96%; }
