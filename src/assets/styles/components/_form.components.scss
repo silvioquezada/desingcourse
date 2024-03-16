@@ -73,12 +73,20 @@
 
 .w80 { width: 80%; }
 
+.w100 { width: 96%; }
+
 .w50 { width: 98%; }
+
+.w40 { width: 92%; }
 
 @media screen and (min-width: $medium-width) {
   .w50 { width: 98%; }
+  //.w100 { width: 90%; }
+  .w40 { width: 80%; }
 }
 
 @media screen and (min-width: $high-width) {
   .w50 { width: 50%; }
+  //.w100 { width: 98%; }
+  .w40 { width: 40%; }
 }
