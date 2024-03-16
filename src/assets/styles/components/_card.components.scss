@@ -61,13 +61,35 @@
 }
 
 .card-not-line { 
-    @extend %flexbox-column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+  @extend %flexbox-column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: $medium-width) {
+  .card { width: 70%; }
+
+  .card-not-line {
+    width: 270px;
+    
+    text-align: left;
   }
+}
+
+@media screen and (min-width: $high-width) {
+  .card-not-line { width: 30%; }
+
+  .card { width: 40%; }
+}
+
+@media screen and (min-width: 1000) {
+
+  .card { width: 30%; }
+  
+}
