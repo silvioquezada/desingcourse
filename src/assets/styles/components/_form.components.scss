@@ -88,5 +88,9 @@
 @media screen and (min-width: $high-width) {
   .w50 { width: 50%; }
   //.w100 { width: 98%; }
+  .w40 { width: 70%; }
+}
+
+@media screen and (min-width: 1000) {
   .w40 { width: 40%; }
 }

@@ -1,25 +1,8 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding-left: 3%;
-  padding-right: 3%;
-
-  border-bottom: solid 1px rgba(6, 74, 76, .18);
-}
-
-.block-inline {
-  display: inline-block;
-  padding-left: 12px;
-  padding-right: 12px;
-}
-
 .padding-block {
   display: block;
   padding-bottom: 10px;  
 }
+
 
 .footer {
   padding: 1%;
@@ -47,3 +30,10 @@
   height: 100%;
   padding-left: 20px;
 }
+
+
+
+
+
+
+
