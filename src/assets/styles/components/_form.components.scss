@@ -87,6 +87,15 @@
 
 .w40 { width: 92%; }
 
+.form-filter {
+  display: block;
+  padding: 7px;
+  width: 150px;
+
+  border-radius: 5px;
+  border: 2px solid $background-color-input;
+}
+
 @media screen and (min-width: $medium-width) {
   .w50 { width: 98%; }
   //.w100 { width: 90%; }
