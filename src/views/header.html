@@ -62,55 +62,84 @@
       <img class="logo" src="./assets/images/logo.svg" alt="Imagen Logo">
     </a>
 
-    <button class="navbar-toggler text-color-primary" type="button" data-bs-toggle="collapse" data-bs-target="#toggle">
+     <button class="navbar-toggler text-color-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
         <span class="text-color-primary">☰</span>
-    </button>
+    </button>      
 
-    <div class="collapse navbar-collapse nav-flex-end" id="toggle">
-        <ul class="navbar-nav me-auto pb-1">
-            <li class="nav-item">
-                <a class="nav-link active text-color-black" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-color-black" href="acerca_de.html">Mis Cursos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-color-black" href="acerca_de.html">Acerca de</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a
-                    class="nav-link dropdown-toggle text-color-black"
-                    data-bs-toggle="dropdown"
-                    href="#"
-                >
-                    Gestión
-                </a>
-                <ul class="dropdown-menu">
-                    <li>
-                        <a class="dropdown-item text-color-black" href="#">Cursos</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item text-color-black" href="#">Inscripciones</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item text-color-black" href="#">Aprobaciones</a>
-                    </li>
-                    <li>
-                        <a class="dropdown-item text-color-black" href="#">Reportes</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-color-black" href="perfil.html">Perfil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-color-black" href="login.html">Acceder</a>
+      <div class="collapse navbar-collapse nav-flex-end" id="navbar-content">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-color-black" href="index.html">Inicio</a>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-color-black" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Categoría</a>
+            <ul class="dropdown-menu shadow">
+              <li>
+                <a class="dropdown-item text-color-black" href="index.html">Informática</a>
+              </li>
+              <li>
+                  <a class="dropdown-item text-color-black" href="index.html">Mecánica</a>
+              </li>
+              <li>
+                  <a class="dropdown-item text-color-black" href="index.html">Electricidad</a>
+              </li>
+              <li>
+                  <a class="dropdown-item text-color-black" href="index.html">Administración</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-color-black" href="acerca_de.html">Mis Cursos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-color-black" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Gestión</a>
+            <ul class="dropdown-menu shadow">
+              <li>
+                <a class="dropdown-item text-color-black" href="#">Usuarios</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-color-black" href="#">Periodos</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-color-black" href="#">Categorías</a>
+              </li>
+              <li>
+                  <a class="dropdown-item text-color-black" href="#">Cursos</a>
+              </li>
+              <li>
+                  <a class="dropdown-item text-color-black" href="#">Inscripciones</a>
+              </li>
+              <li>
+                  <a class="dropdown-item text-color-black" href="#">Aprobaciones</a>
+              </li>
+              <li class="dropend">
+                <a href="#" class="dropdown-item dropdown-toggle text-color-black" data-bs-toggle="dropdown" data-bs-auto-close="outside">Reportes</a>
+                <ul class="dropdown-menu shadow">
+                  <li>
+                    <a class="dropdown-item text-color-black" href="#">Inscritos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-color-black" href="#">aprobación</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-color-black" href="acerca_de.html">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-color-black" href="perfil.html">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-color-black" href="login.html">Acceder</a>
+          </li>
+
         </ul>
-
         
-
     </div>
+
+
 
 </nav>
 </header>
