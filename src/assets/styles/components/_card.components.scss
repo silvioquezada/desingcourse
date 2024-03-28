@@ -72,6 +72,42 @@
   padding-right: 30px;
 }
 
+
+.card-sm {
+  @extend %flexbox-row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  text-align: center;
+
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+
+  border-radius: 15px;
+
+  transition: .5s;
+}
+
+.card-head-sm {
+  padding-left: 1px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card-body-sm {
+  padding: 5px;
+  text-align: left;
+}
+
 @media screen and (min-width: $medium-width) {
   .card { width: 70%; }
 

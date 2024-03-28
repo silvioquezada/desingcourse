@@ -17,6 +17,15 @@
 
 .align-center { align-items: center; }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.ptb100 {
+  padding-top : 30px;
+  padding-bottom: 30px;
+}
+
 .flex-row-between { 
   @extend %flexbox-row-wrap;
   gap: 20;
