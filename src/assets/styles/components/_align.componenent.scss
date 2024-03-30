@@ -4,6 +4,13 @@
 
 .align-center { align-items: center; }
 
+.flex-content-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 5px;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -30,7 +37,7 @@
   align-items: center;
 }
 
-.flex-end {
+.flex-content-between {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -41,7 +48,7 @@
 @media screen and (min-width: $medium-width) {
   .flex-row { flex-direction: column; }
 
-  .flex-end {
+  .flex-content-between {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -52,7 +59,7 @@
 @media screen and (min-width: $high-width) {
   .flex-row { flex-direction: row; }
 
-  .flex-end {
+  .flex-content-between {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
