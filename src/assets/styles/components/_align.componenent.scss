@@ -1,16 +1,3 @@
-/*
-.padding-left-right-3p {
-  width: 100%;
-  padding-left: 3%;
-  padding-right: 3%;
-}
-
-.padding-left-right-6p {
-  width: 100%;
-  padding-left: 6%;
-  padding-right: 6%;
-}
-*/
 .flex-column { flex-direction: column; }
 
 .flex-row { flex-direction: column; }
@@ -25,6 +12,16 @@
   padding-top : 30px;
   padding-bottom: 30px;
 }
+
+/*
+.plp20 {
+  padding-left: 20px;
+}
+
+.prp20 {
+  padding-right: 20px;
+}
+*/
 
 .flex-row-between { 
   @extend %flexbox-row-wrap;
