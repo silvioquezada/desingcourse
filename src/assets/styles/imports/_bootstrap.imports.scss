@@ -1,6 +1,6 @@
 //@import "~bootstrap/scss/bootstrap";
 
-//$primary: $color-primary;
+$primary: $color-primary;
 //$secondary: $color-yellow;
 
 
@@ -38,3 +38,5 @@
 @import "../../../../node_modules/bootstrap/scss/nav";
 @import "../../../../node_modules/bootstrap/scss/navbar";
 @import "../../../../node_modules/bootstrap/scss/dropdown";
+
+@import "../../../../node_modules/bootstrap/scss/badge";

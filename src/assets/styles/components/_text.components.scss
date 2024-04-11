@@ -2,6 +2,8 @@
 
 .text-color-black { color: $color-black; }
 
+.text-color-white { color: $color-white; }
+
 .text-center { text-align: center; }
 
 .inline-block {
@@ -28,42 +30,35 @@
 }
 
 .badge {
-    padding: 4px 8px;
-
-    color: rgb(0, 0, 0);
-    text-align: center;
-
-    border-radius: 5px;
-
-    background-color: rgb(230, 230, 230);
+    background-color: $color-secondary;
   }
 
   .badge-red {
-    color: white;
+    color: $color-white;
 
-    background-color: red;
+    background-color: $color-red;
   }
 
   .badge-blue {
-    color: white;
+    color: $color-white;
 
     background-color: rgb(4, 0, 255);
   }
 
   .badge-yellow {
-    color: rgb(0, 0, 0);
+    color: $color-black;
 
-    background-color: rgb(229, 255, 0);
+    background-color: $color-yellow;
   }
 
   .badge-info {
-    color: white;
+    color: $color-white;
 
-    background-color: rgb(0, 195, 255);
+    background-color: $color-sky-blue;
   }
 
   .badge-green {
-    color: white;
+    color: $color-white;
 
-    background-color: rgb(0, 255, 42);
+    background-color: $color-green;
   }
