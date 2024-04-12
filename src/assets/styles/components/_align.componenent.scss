@@ -1,7 +1,3 @@
-.flex-column { flex-direction: column; }
-
-.flex-row { flex-direction: column; }
-
 .align-center { align-items: center; }
 
 .flex-content-right {
@@ -19,16 +15,6 @@
   padding-top : 30px;
   padding-bottom: 30px;
 }
-
-/*
-.plp20 {
-  padding-left: 20px;
-}
-
-.prp20 {
-  padding-right: 20px;
-}
-*/
 
 .flex-row-between { 
   @extend %flexbox-row-wrap;
