@@ -1,7 +1,7 @@
 .form {   
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
   padding-top: 10px;
@@ -100,8 +100,8 @@
 
 .form-modal {   
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
 
@@ -235,7 +235,6 @@
 
 .input-group a {
   text-align: center;
-  //pointer-events: none;
   &:hover {
     color: $color-white;
   }
@@ -260,13 +259,11 @@
 
 @media screen and (min-width: $medium-width) {
   .w50 { width: 98%; }
-  //.w100 { width: 90%; }
   .w40 { width: 80%; }
 }
 
 @media screen and (min-width: $high-width) {
   .w50 { width: 50%; }
-  //.w100 { width: 98%; }
   .w40 { width: 70%; }
 }
 

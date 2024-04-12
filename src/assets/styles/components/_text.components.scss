@@ -30,35 +30,35 @@
 }
 
 .badge {
-    background-color: $color-secondary;
-  }
+  background-color: $color-secondary;
+}
 
-  .badge-red {
-    color: $color-white;
+.badge-red {
+  color: $color-white;
+  
+  background-color: $color-red;
+}
 
-    background-color: $color-red;
-  }
+.badge-blue {
+  color: $color-white;
 
-  .badge-blue {
-    color: $color-white;
+  background-color: $color-sky-blue;
+}
 
-    background-color: rgb(4, 0, 255);
-  }
+.badge-yellow {
+  color: $color-black;
 
-  .badge-yellow {
-    color: $color-black;
+  background-color: $color-yellow;
+}
 
-    background-color: $color-yellow;
-  }
+.badge-info {
+  color: $color-white;
 
-  .badge-info {
-    color: $color-white;
+  background-color: $color-sky-blue;
+}
 
-    background-color: $color-sky-blue;
-  }
+.badge-green {
+  color: $color-white;
 
-  .badge-green {
-    color: $color-white;
-
-    background-color: $color-green;
-  }
+  background-color: $color-green;
+}
