@@ -2,8 +2,8 @@
 
 .flex-content-right {
   display: flex;
-  justify-content: flex-end;
   flex-direction: row;
+  justify-content: flex-end;
   gap: 5px;
 }
 
@@ -18,9 +18,9 @@
 
 .flex-row-between { 
   @extend %flexbox-row-wrap;
-  gap: 20;
   justify-content: space-between;
   align-items: center;
+  gap: 20;
 }
 
 .flex-content-between {
