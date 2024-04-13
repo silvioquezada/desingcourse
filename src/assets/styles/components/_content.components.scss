@@ -15,18 +15,20 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   padding-bottom: 5%;
+  padding-top : 30px;
+  padding-bottom: 30px;
+
+  text-align: center;
 }
 
-.title-content {
-  //margin-top: 10px;
-  //margin-bottom: 20px;
+.content-title {
   margin-left: 20px;
   margin-right: 20px;
-  //padding-top: 30px;
-  //padding-bottom: 3px;
+  padding-bottom: 15px;
   
   text-align: center;
 }
@@ -45,8 +47,9 @@
   .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding-bottom: 5%;
   }
 
@@ -65,9 +68,9 @@
   .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 0;
+    padding-top: 0;
   }
 
   .description-detail {

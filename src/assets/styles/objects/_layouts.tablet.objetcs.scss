@@ -1,15 +1,14 @@
 @media screen and (min-width: $medium-width) {
   .container {   
     display: flex;
-    //flex-direction: row
     flex-direction: column;
     justify-content:center;
-    //flex-wrap: wrap;
     align-items: center;
     width: 100%;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 3%;
+    padding-bottom: 4%;
   }
 
   .container-footer {    

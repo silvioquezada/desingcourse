@@ -2,7 +2,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <label class="title-weight">Nuevo Registro</label>
+        <label class="text-weight">Nuevo Registro</label>
         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -32,7 +32,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <label class="title-weight">Editar:</label>
+        <label class="text-weight">Editar:</label>
         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -63,7 +63,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <label class="title-weight">Registro: </label>
+        <label class="text-weight">Registro: </label>
         <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -93,73 +93,69 @@
 
 <main>
   
-  <section class="container" aria-label="Detalle de Curso">
+  <section class="container" aria-label="Listado de categoría">
 
-   
+    <div class="content-title">
       <h1>Listado de Categorías</h1>
-  
-      <form class="form skin-form">
+    </div>
 
-        
-        <div class="panel panel-col-p100">
+    <form class="form skin-form">
 
-          <div class="flex-content-between">
-            <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalNuevo"><i class="fas fa-plus"></i> NUEVO</button>
+      
+      <div class="panel panel-col-p100">
 
-            <input class="form-filter" type="text" placeholder="Buscar">
-          </div>
+        <div class="content-column-between">
+          <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalNuevo"><i class="fas fa-plus"></i> NUEVO</button>
 
-          
-          <table class="content-table">
-            <thead>
-              <tr>
-                <th scope="col">Categoría</th>
-                <th scope="col"></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Informática</td>
-                <td>
-                  <div class="flex-content-right">
-                    <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar"><i class="fas fa-edit"></i></button>
-                    <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalBuscar"><i class="fas fa-search"></i></button>
-                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Mecánica</td>
-                <td>
-                  <div class="flex-content-right">
-                    <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar"><i class="fas fa-edit"></i></button>
-                    <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalBuscar"><i class="fas fa-search"></i></button>
-                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>Electricidad</td>
-                <td>
-                  <div class="flex-content-right">
-                    <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar"><i class="fas fa-edit"></i></button>
-                    <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalBuscar"><i class="fas fa-search"></i></button>
-                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-
+          <input class="form-filter" type="text" placeholder="Buscar">
         </div>
 
-
-  
-
-
         
-      </form>
+        <table class="content-table">
+          <thead>
+            <tr>
+              <th scope="col">Categoría</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Informática</td>
+              <td>
+                <div class="flex-content-right">
+                  <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar"><i class="fas fa-edit"></i></button>
+                  <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalBuscar"><i class="fas fa-search"></i></button>
+                  <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Mecánica</td>
+              <td>
+                <div class="flex-content-right">
+                  <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar"><i class="fas fa-edit"></i></button>
+                  <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalBuscar"><i class="fas fa-search"></i></button>
+                  <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Electricidad</td>
+              <td>
+                <div class="flex-content-right">
+                  <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalEditar"><i class="fas fa-edit"></i></button>
+                  <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#modalBuscar"><i class="fas fa-search"></i></button>
+                  <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+
+    </form>
       
 
 

@@ -7,23 +7,16 @@
   gap: 5px;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.ptb100 {
-  padding-top : 30px;
-  padding-bottom: 30px;
-}
-
-.flex-row-between { 
-  @extend %flexbox-row-wrap;
+.content-row-between { 
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20;
 }
 
-.flex-content-between {
+.content-column-between {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,7 +27,7 @@
 @media screen and (min-width: $medium-width) {
   .flex-row { flex-direction: column; }
 
-  .flex-content-between {
+  .content-column-between {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,7 +38,7 @@
 @media screen and (min-width: $high-width) {
   .flex-row { flex-direction: row; }
 
-  .flex-content-between {
+  .content-column-between {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

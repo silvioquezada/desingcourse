@@ -34,7 +34,8 @@
 
 
 .form-login {   
-  @extend %flexbox-column;
+  display: flex;
+  flex-direction: column;
 
   margin-top: 10px;
   margin-bottom: 10px;
@@ -49,7 +50,8 @@
 }
 
 .panel-login {
-  @extend %flexbox-column;
+  display: flex;
+  flex-direction: column;
 
   margin-top: 10px;
   margin-bottom: 10px;
