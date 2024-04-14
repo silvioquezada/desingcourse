@@ -31,3 +31,76 @@
 .content-table tbody tr:last-of-type {
   border-bottom: 2px solid $color-primary;
 }
+
+
+@media only screen and (max-width: 768px) {	
+	.resp,
+	.resp thead,
+	.resp tbody,
+	.resp tr,
+	.resp th,
+	.resp td,
+	.resp caption {
+	  display: block;
+	}
+	
+	.resp {
+	  border: none
+	}
+	
+	.resp thead tr {
+	  display: none;
+	}
+	
+	.resp tbody tr {
+	  margin: 1em 0;
+	  border: 1px solid lightgray;
+	  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+	  border-radius:15px;
+	}
+	
+	.resp td {
+	  border: none;
+	  display: flex;
+	  justify-content: space-between;
+      align-items: center;
+	}
+	.resp tr td:first-child {
+		border: none;
+	}
+
+	.resp tr:last-child td:last-child {
+	  border: none;
+	}
+	
+	.resp td:before {
+	  left: 6px;
+	  width: 45%;
+	  padding-right: 10px;
+	  white-space: nowrap;
+	  text-align: left;
+	  font-weight: bold;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+  td:nth-of-type(1):before {
+    content: "CÉDULA/RUC";
+  }
+  
+  td:nth-of-type(2):before {
+    content: "APELLIDO/RAZÓN";
+  }
+  
+  td:nth-of-type(3):before {
+    content: "NOMBRE/COMERCIAL";
+  }
+  
+  td:nth-of-type(4):before {
+    content: "IDENTIFICACIÓN";
+  }
+
+  td:nth-of-type(5):before {
+    content: "";
+  }
+}
